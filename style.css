@@ -1,0 +1,61 @@
+body {
+    background: url(img/bg.png);
+}
+.board {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 2px solid #fff;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.plane {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    left: 50%;
+    background: url(img/plane.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bullets {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom:  40px;
+    left: -50px;
+    background: url(img/bullet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aliens {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    background: url(img/alien.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.guide {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
