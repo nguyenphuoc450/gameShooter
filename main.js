@@ -47,7 +47,6 @@ window.addEventListener('keydown',function(event){
 let generateAliens = setInterval(function(){
     let alien = document.createElement('div');
     alien.classList.add('aliens');
-    // let alienLeft = parseInt(window.getComputedStyle(aliens).getPropertyValue('left'));
     alien.style.left = Math.random()*450 + 'px';
     board.appendChild(alien);
 },1500);
